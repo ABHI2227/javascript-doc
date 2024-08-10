@@ -39,3 +39,34 @@ console.log(abhi);
 // Prefix: Useful when you want to immediately use the updated value.
 // Postfix: Useful when you need to use the current value before it changes.
 
+
+
+
+// there are main two type of datatype 1== primitive (call by value) && 2== non-primitive (referance type)
+// 1== primitive (call by value) : 7 type of data type as we seen above 
+
+// 2== non-primitive (referance type) : Array , Object , Functions
+
+
+//array 
+
+const hero = ["shaktiman", "shakalaka", "juniyar-G"]
+console.log(hero);
+
+// object
+
+let obj = {
+    name : "abhishek",
+    age : 24
+}
+console.log(obj)
+
+// Function
+
+const myfunction = function(){
+    console.log("dare to learn")
+
+}
+
+myfunction() // its how you run the function ;)  
+
