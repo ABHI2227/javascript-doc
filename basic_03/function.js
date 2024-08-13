@@ -48,4 +48,42 @@ function loginUser(username = "sam"){
     return `${username} just logged in`
 }
 
-console.log(loginUser("abhishek"))
+// console.log(loginUser("abhishek"))
+
+//shoping cart user add things 
+
+// ...restoperator and spread operator looks same but usecase ifs diff
+
+function calculateCarPrice(...num1){
+    return num1
+}
+
+// console.log(calculateCarPrice(200, 400 , 40))
+
+const user = {
+    username: "abhishek",
+    Price: 100
+}
+
+function handleObject(anyObj){
+    console.log(`Username is ${anyObj.username} and price is ${anyObj.Price} `)
+}
+
+handleObject({
+    username: "sam",
+    Price: 300
+})
+
+const Aarray = [200,100,400,200]
+
+function returnArray(getArray){
+    return getArray[1]
+}
+
+console.log(returnArray(Aarray))
+
+
+
+
+
+
