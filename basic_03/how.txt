@@ -1,0 +1,29 @@
+//execution context and callback
+
+// javascript Execution context 
+
+// how will java run your file
+
+//global EC = this 
+//thread me execute hota hao = single thtread ec  in js
+// 1..global exection contect 
+//2..function exection context
+//3..eval execution context = its a propart of global execution contect 
+
+// .../Memory creation phase
+// .../Executin Phase
+// .../
+
+
+
+
+
+==call stack = lifo works here
+
+------------
+three()
+two()
+one()                   one()
+------------
+global excec
+------------
