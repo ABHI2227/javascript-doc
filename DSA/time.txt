@@ -1,0 +1,9 @@
+Big O = BIG O notation helps us undestand how long an algorithm will take 
+to run or how much memory it will need as the amount of data
+it handles grows...
+
+O(n) =  signifies that the exection time of the algorithm grows
+        linearly in proportion to the size of the input data (n)
+
+
+=>> small program have less data iterate from will take less time it means it's time complexity will be "O(n)"
